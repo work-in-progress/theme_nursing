@@ -108,12 +108,31 @@ global $show_wide_header;
 		<div id="premasthead">&nbsp;</div>
 		<div id="masthead">
 
-			<div style='clear:both;'></div>
+			<div class='clear'></div>
+			<div id="upperaccess">
+				<span>Nursing Program</span>
+					<div class='menurightfloater'><span>Find us on</span>
+					<a id='socialbuttonfacebook' href='http://www.facebook.com/#!/pages/California-Institute-for-Social-Business/128385543846915'  target='_blank'>Facebook</a>
+					<a id='socialbuttontwitter' href='http://twitter.com/CIsocBusiness'  target='_blank'>Twitter</a>
+					<a id='socialbuttonlinkedin' href='http://www.linkedin.com/groups?gid=3251616' target='_blank'>LinkedIn</a>
+					<a id='socialbuttonyoutube' href='http://www.youtube.com/cisocialbusiness'  target='_blank'>YouTube</a>
+					</div>
+		
+			</div>
+			<div id="access" role="navigation" style='z-index: 10000;'>
+			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
+				<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentyten' ); ?>"><?php _e( 'Skip to content', 'twentyten' ); ?></a></div>
+				<?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu.  The menu assiged to the primary position is the one used.  If none is assigned, the menu with the lowest ID is used.  */ ?>
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+
+					<div style='clear:both'></div>
+			</div><!-- #access -->
+
 			
 			<?php 
 			if(isset($show_wide_header) && $show_wide_header) {		
 			?>
-			<img id='header_nursing_wide' class='header_nursing_wide_flag' src="<?php bloginfo('template_directory'); ?>/images/header_nursing_wide.jpg" alt=''/>
+			<img id='header_nursing_wide' class='header_nursing_wide_flag' src="<?php bloginfo('template_directory'); ?>/images/main_a.jpg" alt=''/>
 				<a href="/nursing/course-info"  class='nav_button contact_us header_nursing_wide_flag'></a>
 				<a href="/blog" class='nav_button blog header_nursing_wide_flag'></a>
 
