@@ -519,16 +519,20 @@ a#socialbuttonyoutube:active
 }
 
 #access {
-	background: #39b29d;
+/*	background: #39b29d; */
 	margin: 0 0;
 /*	width:330px; */
 	display:block;
 	float:left;
-	border-top:1px solid #3EBAAB;
+/*	border-top:1px solid #3EBAAB; */
 	position:relative;
 	left:-20px;
 	width:768px;
+	height:34px;
+	background-image: url(images/assets.png);
+	background-position: 0 -40px;
 }
+
 #access .menu-header,
 div.menu {
 	font-size: 13px;
