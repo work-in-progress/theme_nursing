@@ -685,6 +685,9 @@ div.menu li {
 	margin: 0 0 10px 0;
 	line-height: 1.5em;
 }
+#content h2 {
+	margin-top:2px;
+}
 
 #content h3 {
 	color: #349e92 !important;
@@ -1819,8 +1822,8 @@ padding-bottom: 15px;
 img#header_nursing_wide
 {
 	width:	768px;
-	margin-left: -20px;
-	height:	414px;
+/*	margin-left: -20px; */
+	height:	414px; 
 }
 
 img#header_nursing_short
@@ -1898,20 +1901,32 @@ span.sponsors_caption {
 
 
 h3.widget-title {
-	padding:5px;
-	width:188px;
-	background-color: #A49A77;
-	border: solid 1px #A49A77;
 	color: white;
 	font-size:14px;
 	font-weight:normal;
 	margin-bottom:2px;
+	
+	padding:0px;
+	border:none 0px;
+	background-image: url(images/assets.png);
+	background-position: 0px -120px;
+	width:195px;
+	height:23px;
+	padding-left:5px;
+	padding-top:5px;
 }
 
 .widget_fbw_likebox h3.widget-title {
-	background-color: #015089;
-	border: solid 1px #015089;
 	margin-bottom:10px;
+
+	padding:0px;
+	border:none 0px;
+	background-image: url(images/assets.png);
+	background-position: 0px -120px;
+	width:195px;
+	height:23px;
+	padding-left:5px;
+	padding-top:5px;
 }
 
 .menu-primary-container {
@@ -2034,7 +2049,8 @@ a.home_link {
 	width:200px;
 	border: none 0px transparent;
 	padding: 0px;
-
+	margin-top:5px;
+	margin-bottom:30px;
 }
 
 span.actionbuttons_caption {
@@ -2060,7 +2076,7 @@ span.actionbuttons_caption {
 	background-position: -0px -149px;
 }
 #actionbutton_b {
-	margin-top:8px;
+	margin-top:10px;
 	height:45px;
 	background-position: -0px -212px;	
 }
@@ -2081,4 +2097,166 @@ span.actionbuttons_caption {
 #actionbutton_c:hover,
 #actionbutton_c:active {
 	background-position: -210px -262px;
+}
+
+
+#header_wide_pane
+{
+	margin-left: -20px;
+	width:	768px;
+	height:	414px;
+	clear:both;	
+	position:relative;
+	overflow:hidden;
+}
+div.hometabpage
+{
+	width:	768px;
+	height:	414px;
+  display:none;
+	
+}
+
+div.hometabpage img
+{
+	width:	768px;
+	height:	414px;
+}
+
+div.hometabpage div.textcontainer
+{
+    clear:both;
+    overflow:hidden;
+    height:104px;
+		width:768px;
+    color:white;
+    position:relative;
+    top:-100px;
+}
+
+div.hometabpage div.textcontainer h4
+{
+	font-size:14px;
+	line-height:1em;
+	font-weight:bold;
+	font-style:normal;
+	margin:0px;
+	padding:0px;
+	color:white  !important;
+	
+	position:relative;
+	left:20px;
+	height:24px;
+		
+}
+div.hometabpage div.textcontainer h4 span {
+	display:inline-block;
+	padding-bottom:0px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:6px;
+	background-image: url('images/background_t.png');
+	background-repeat: repeat;
+		height:18px;
+}
+
+div.hometabpage div.textcontainer p
+{
+	font-size:12px;
+	line-height:1em;
+	margin:0px;
+	padding:0px;
+	color:white;
+	padding-left:15px;
+	padding-top:2px;
+	background-image: url('images/background_t.png');
+	background-repeat: repeat;
+	width:753px;
+	height:78px;	
+}
+
+div.hometabpagecommandarea
+{
+    float:left;
+    position:relative;
+    z-index:3000;
+    top:-100px;
+    left: 640px;
+    clear:both;
+}
+
+div.hometabpagecommandarea a
+{
+    display:block;
+    float:right;
+    margin-left:3px;
+    height:16px;
+    width:16px;
+    color: #000;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    line-height:16px;
+    cursor:pointer;
+
+		background-image: url('images/assets.png');
+		text-indent:-2000px;
+}
+
+div.hometabpagecommandarea a.command_a
+{
+		background-position: -0px -322px;
+}
+
+div.hometabpagecommandarea a.command_a:active,
+div.hometabpagecommandarea a.command_a:hover,
+div.hometabpagecommandarea a.command_a.current
+{
+	background-position: -0px -342px;
+}
+
+div.hometabpagecommandarea a.command_b
+{
+		background-position: -18px -322px;
+}
+
+div.hometabpagecommandarea a.command_b:active,
+div.hometabpagecommandarea a.command_b:hover,
+div.hometabpagecommandarea a.command_b.current
+{
+	background-position: -18px -342px;
+}
+
+div.hometabpagecommandarea a.command_c
+{
+		background-position: -36px -322px;
+}
+
+div.hometabpagecommandarea a.command_c:active,
+div.hometabpagecommandarea a.command_c:hover,
+div.hometabpagecommandarea a.command_c.current
+{
+	background-position: -36px -342px;
+}
+
+div.hometabpagecommandarea a.command_d
+{
+		background-position: -54px -322px;
+}
+
+div.hometabpagecommandarea a.command_d:active,
+div.hometabpagecommandarea a.command_d:hover,
+div.hometabpagecommandarea a.command_d.current
+{
+	background-position: -54px -342px;
+}
+
+#header_marker
+{
+	width:768px;
+	height:14px;
+	background-color:#349e92;
+	clear:both;
+	margin-left:-20px;
 }

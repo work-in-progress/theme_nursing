@@ -133,10 +133,49 @@ global $show_wide_header;
 			<?php 
 			if(isset($show_wide_header) && $show_wide_header) {		
 			?>
-			<img id='header_nursing_wide' class='header_nursing_wide_flag' src="<?php bloginfo('template_directory'); ?>/images/main_a.jpg" alt=''/>
-				<a href="/nursing/course-info"  class='nav_button contact_us header_nursing_wide_flag'></a>
-				<a href="/blog" class='nav_button blog header_nursing_wide_flag'></a>
+			<div id="header_wide_pane">
+      <div class="hometabpage" id="tabpage4">
+        <img src="<?php bloginfo('template_directory'); ?>/images/main_d.jpg" alt=""/>
+        <div class="textcontainer">
+          <h4><span>Header 4</span></h4>
+          <p>Text 4</p>
+        </div>
+      </div>
 
+      <div class="hometabpage" id="tabpage3">
+        <img src="<?php bloginfo('template_directory'); ?>/images/main_c.jpg" alt=""/>
+          <div class="textcontainer">
+            <h4><span>Header 3</span></h4>
+            <p>Text 3</p>
+          </div>
+      </div>
+      <div class="hometabpage" id="tabpage2">
+        <img src="<?php bloginfo('template_directory'); ?>/images/main_b.jpg" alt=""/>
+        <div class="textcontainer">
+          <h4><span>Header 2</span></h4>
+          <p>Text 2</p>
+        </div>
+      </div>
+      <div class="hometabpage" id="tabpage1" style="display:block;">
+        <img src="<?php bloginfo('template_directory'); ?>/images/main_a.jpg" alt=""/>
+        <div class="textcontainer">
+          <h4><span>Header 1</span></h4>
+          <p>Text 1</p>
+        </div>
+      </div>
+
+      <div class="hometabpagecommandarea" style='width:110px;'>
+        <a class="command_d">4</a>
+        <a class="command_c">3</a>
+        <a class="command_b">2</a>
+        <a class="command_a">1</a>
+      </div>
+			
+			
+
+
+			</div>
+			<div id='header_marker'>&nbsp;</div>
 			<?php 
 			} else {	
 			?>

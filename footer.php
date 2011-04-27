@@ -63,7 +63,7 @@
 ?>
 
 <script src="http://cdn.jquerytools.org/1.2.3/all/jquery.tools.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/socialbusiness.js"> </script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/nursing.js"> </script>
 
 </body>
 </html>
