@@ -421,11 +421,12 @@ a:hover {
 {
     float:right;
     position:relative;
-    margin-right:10px;
+    margin-right:0px;
     line-height:22px;
     vertical-align:middle;
     text-transform:uppercase;
     font-size:11px;
+		top: -17px;
 }
 
 div.finduson_socialbox 
@@ -1875,6 +1876,7 @@ a.nav_button.blog:active {
 
 .column_menu ul.right_sidebar{
 	list-style-type:none;
+	list-style: none;
 	width:200px;
 	padding:0px;
 	margin:0px;
@@ -1971,6 +1973,8 @@ a.home_link {
 
 .widget-container.widget_categoryposts ul {
 	list-style-type:none;
+	list-style: none;
+	
 	width:200px;
 	padding:0px;
 	margin:0px;
@@ -2002,14 +2006,79 @@ a.home_link {
 }
 
 .finduson_socialbox {
+	position:relative;
 	float:right;
-	margin-top:40px;
+	top:10px;
 	margin-right:0px;
-	margin-bottom:10px;
+
 }
 
 .finduson_socialbox span {
 	margin-top:3px;
 }
 
+#home_logo_link {
+	display:block;
+	width:235px;
+	height:32px;
+	overflow:hidden;
+	position:relative;
+	top:13px;
+	background-image: url('images/assets.png');
+	background-position: -16px -3px;
+	text-indent: -2000px;
+	color:white;
+}
 
+.actionbuttons_inner_box {
+	width:200px;
+	border: none 0px transparent;
+	padding: 0px;
+
+}
+
+span.actionbuttons_caption {
+		display:none;
+		color: #d5d5d5;
+		margin-bottom:4px;
+}
+
+#actionbutton_a,
+#actionbutton_b,
+#actionbutton_c {
+	display:block;
+	width:200px;
+	overflow:hidden;
+	position:relative;
+	background-image: url('images/assets.png');
+	text-indent: -2000px;
+	color:white;
+}
+
+#actionbutton_a {
+	height:53px;
+	background-position: -0px -149px;
+}
+#actionbutton_b {
+	margin-top:8px;
+	height:45px;
+	background-position: -0px -212px;	
+}
+#actionbutton_c {
+	margin-top:7px;
+	height:46px;
+	background-position: -0px -262px;
+}
+
+#actionbutton_a:hover,
+#actionbutton_a:active {
+	background-position: -210px -149px;
+}
+#actionbutton_b:hover,
+#actionbutton_b:active {
+	background-position: -210px -212px;	
+}
+#actionbutton_c:hover,
+#actionbutton_c:active {
+	background-position: -210px -262px;
+}

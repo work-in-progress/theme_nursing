@@ -110,7 +110,8 @@ global $show_wide_header;
 
 			<div class='clear'></div>
 			<div id="upperaccess">
-				<span>Nursing Program</span>
+			
+				<a href='/' id="home_logo_link">Home</a>
 					<div class='menurightfloater'><span>Find us on</span>
 					<a id='socialbuttonfacebook' href='http://www.facebook.com/#!/pages/California-Institute-for-Social-Business/128385543846915'  target='_blank'>Facebook</a>
 					<a id='socialbuttontwitter' href='http://twitter.com/CIsocBusiness'  target='_blank'>Twitter</a>
