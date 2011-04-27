@@ -266,8 +266,12 @@ p {
 	margin-bottom: 18px;
 }
 ul {
-	list-style: square;
+	list-style: none url('images/bullet.png');
 	margin: 0 0 18px 1.5em;
+	
+}
+ul li {
+	margin-bottom:10px;
 }
 ol {
 	list-style: decimal;
@@ -519,18 +523,17 @@ a#socialbuttonyoutube:active
 }
 
 #access {
-/*	background: #39b29d; */
+	background: #39b29d; 
 	margin: 0 0;
-/*	width:330px; */
 	display:block;
 	float:left;
-/*	border-top:1px solid #3EBAAB; */
 	position:relative;
 	left:-20px;
 	width:768px;
-	height:34px;
+/*	height:34px;
 	background-image: url(images/assets.png);
 	background-position: 0 -40px;
+	*/
 }
 
 #access .menu-header,
@@ -680,6 +683,10 @@ div.menu li {
 	color: #333;
 	margin: 0 0 10px 0;
 	line-height: 1.5em;
+}
+
+#content h3 {
+	color: #349e92 !important;
 }
 #content table {
 	border: 1px solid #e7e7e7;
@@ -1734,7 +1741,7 @@ div.homepage hr
 .homepage h3
 {
     margin-bottom:0px !important;
-    padding-bottom:0px;
+    padding-bottom:10px;
 }
 
 .homepage div.one-leftcolumn
